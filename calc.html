@@ -1,0 +1,66 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="calc.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+   
+<div class="main">
+    
+    <div class="calculator">
+      <table>
+        <tr>
+          <td colspan="4">
+                <div style="color:white; font-family:sans-serif;font-size:20px;" id="txtResult"  readonly="readonly"></div>
+          </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div style="color:white; font-family:sans-serif;font-size:16px;" id="txtResultItem"></div>
+            </td>
+        </tr>
+        <tr>
+            <td id="test" value="475"><button onclick="test()" id="btn1" aria-label="Happy Meal"></button></td>
+            <td id="test2" value="540">
+                <button onclick="test2()" id="btn2" aria-label="Big Mac"></button>
+            </td>
+            <td><a href="https://www.mcdonalds.at/kalorienrechner" target="_blank" ><button aria-label="All Products" id="logo" ></button></a></td>
+            <td><button id="btnClearEntry" onclick="clearentry()">CE</button></td>
+        </tr>
+
+        <tr>
+             <td id="test3" value="200"><button onclick="test3()" id="btn3" aria-label="Hamburger"></button></td>
+             <td id="test4" value="250"><button onclick="test4()" id="btn4" aria-label="6 Chicken Nuggets"></button></td>
+             <td id="test5" value="570"><button onclick="test5()" id="btn5" aria-label="Crispy Chicken Wrap"></button></td>
+             <td><button id="btnplus" onclick="add()"><b>+</b></button></td>
+        </tr>
+
+        <tr>
+            <td id="test6" value="350"><button onclick="test6()" id="btn6" aria-label="Big Fries"></button></td>
+            <td id="test7" value="430"><button onclick="test7()" id="btn7" aria-label="Blueberry Muffin"></button></td>
+            <td id="test8" value="190"><button onclick="test8()" id="btn8" aria-label="Coke"></button></td>
+            <td><button id="btnminus" onclick="sub()"><b>-</b></button></td>
+ </tr>
+
+ <tr>
+    <td id="test9" value="360"><button onclick="test9()" id="btn9" aria-label="Cesars salad"></button></td>
+    <td id="test10" value="290"><button onclick="test10()" id="btn10" aria-label="Egg McMuffin"></button></td>
+    <td id="test11" value="360"><button onclick="test11()" id="btn11" aria-label="Fish Mac"></button></td>
+    <td id="test12" value="490"><button onclick="test12()" id="btn12" aria-label="Royal with Cheese"></button></td>
+ </tr>
+
+ <tr>
+    <td ></td>
+    <td id="test13" value="270"><button onclick="test13()" id="btn13" aria-label="Baked Apple Pie"></button></td>
+    <td id="test14" value="340"><button onclick="test14()" id="btn14" aria-label="Mc Sundae"></button></td>
+    <td></td>
+ </tr>
+ 
+</table>
+ 
+
+</div>
+</div>
+</body>
